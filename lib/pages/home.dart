@@ -98,7 +98,7 @@ void deleteTask(int index){
             ),
        
           ListTile(
-            leading: Icon(Icons.home),
+            leading: Icon(Icons.info),
             title: Text("SAIBA MAIS",style: TextStyle(color: Colors.white),),
             onTap: () {
               Navigator.pop(context);
